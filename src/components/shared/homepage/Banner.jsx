@@ -2,6 +2,7 @@
 import sunglassImg from "@/assets/banner-1.jpg";
 import sunglassSellImg from "@/assets/banner-2.jpg";
 import sunglassAvatarImg from "@/assets/banner-3.jpg";
+import BannerImg from "@/assets/summer.webp";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
@@ -23,7 +24,7 @@ const Banner = () => {
       >
         <SwiperSlide>
           <Image
-            src={sunglassImg}
+            src={BannerImg}
             alt={"summer"}
             width={1920}
             height={600}
