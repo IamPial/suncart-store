@@ -7,30 +7,31 @@
     "rating": 4.7,
     "stock": 10,
     "description": "Stylish UV protection sunglasses perfect for summer outings.",
-    "image": "https://i.postimg.cc/example1.png",
+    "image": "https://i.ibb.co.com/20GJ5B8j/sunglass.jpg",
     "category": "Sunglasses"
   },
+
   {
     "id": 2,
-    "name": "Polarized Sport Sunglasses",
-    "brand": "VisionX",
-    "price": 29,
-    "rating": 4.5,
-    "stock": 25,
-    "description": "Lightweight polarized lenses ideal for outdoor sports and beach activities.",
-    "image": "https://i.postimg.cc/example2.png",
-    "category": "Sunglasses"
+    "name": "Waterproof Phone Pouch",
+    "brand": "AquaCase",
+    "price": 9,
+    "rating": 4.4,
+    "stock": 55,
+    "description": "Universal waterproof phone pouch that keeps your phone dry at the beach, pool or water parks.",
+    "image": "https://i.ibb.co.com/Nh9hHLZ/phone-pouch.webp",
+    "category": "Beach Accessories"
   },
   {
     "id": 3,
-    "name": "Retro Aviator Sunglasses",
-    "brand": "ClassicEye",
-    "price": 22,
-    "rating": 4.8,
-    "stock": 18,
-    "description": "Classic aviator style with 100% UVA/UVB protection for a timeless look.",
-    "image": "https://i.postimg.cc/example3.png",
-    "category": "Sunglasses"
+    "name": "Flip Flops",
+    "brand": "SandWalk",
+    "price": 12,
+    "rating": 4.3,
+    "stock": 50,
+    "description": "Comfortable anti-slip flip flops with soft cushioned soles for all-day beach wear.",
+    "image": "https://i.ibb.co.com/0V6w4mRc/flip-flops.jpg",
+    "category": "Beach Accessories"
   },
   {
     "id": 4,
@@ -40,230 +41,53 @@
     "rating": 4.4,
     "stock": 15,
     "description": "Trendy oversized cat-eye frames for a bold summer fashion statement.",
-    "image": "https://i.postimg.cc/example4.png",
-    "category": "Sunglasses"
-  },
-  {
-    "id": 5,
-    "name": "Mirrored Wayfarer Sunglasses",
-    "brand": "UrbanLens",
-    "price": 25,
-    "rating": 4.3,
-    "stock": 20,
-    "description": "Cool mirrored wayfarer-style sunglasses perfect for city and beach wear.",
-    "image": "https://i.postimg.cc/example5.png",
-    "category": "Sunglasses"
-  },
-  {
-    "id": 6,
-    "name": "Bamboo Frame Sunglasses",
-    "brand": "EcoVision",
-    "price": 35,
-    "rating": 4.9,
-    "stock": 8,
-    "description": "Eco-friendly bamboo frame sunglasses with polarized lenses. Sustainable and stylish.",
-    "image": "https://i.postimg.cc/example6.png",
+    "image": "https://i.ibb.co.com/7tJMnbck/oversized-sunglass.jpg",
     "category": "Sunglasses"
   },
 
   {
-    "id": 7,
+    "id": 5,
     "name": "Floral Print Maxi Dress",
     "brand": "SummerBreeze",
     "price": 45,
     "rating": 4.6,
     "stock": 30,
     "description": "Lightweight floral maxi dress made from breathable cotton, perfect for beach days.",
-    "image": "https://i.postimg.cc/example7.png",
+    "image": "https://i.ibb.co.com/99wqST5Q/maxi-dress.avif",
     "category": "Summer Outfits"
   },
   {
-    "id": 8,
+    "id": 6,
     "name": "Linen Shorts",
     "brand": "CoastalWear",
     "price": 28,
     "rating": 4.5,
     "stock": 40,
     "description": "Comfortable linen shorts ideal for hot summer days. Available in multiple colors.",
-    "image": "https://i.postimg.cc/example8.png",
+    "image": "https://i.ibb.co.com/PGXwy78G/shorts.avif",
     "category": "Summer Outfits"
   },
   {
-    "id": 9,
+    "id": 7,
     "name": "Striped Beach Shirt",
     "brand": "TropicVibes",
     "price": 32,
     "rating": 4.4,
     "stock": 22,
     "description": "Casual striped shirt with a relaxed fit, great for beach outings and summer parties.",
-    "image": "https://i.postimg.cc/example9.png",
+    "image": "https://i.ibb.co.com/dwY9xQtm/shirts.avif",
     "category": "Summer Outfits"
   },
+
   {
-    "id": 10,
-    "name": "Boho Crop Top",
-    "brand": "SunKissed",
-    "price": 18,
-    "rating": 4.7,
-    "stock": 35,
-    "description": "Trendy boho-style crop top with embroidery details, perfect for summer festivals.",
-    "image": "https://i.postimg.cc/example10.png",
-    "category": "Summer Outfits"
-  },
-  {
-    "id": 11,
-    "name": "High-Waist Bikini Set",
-    "brand": "WaveRider",
-    "price": 38,
-    "rating": 4.8,
-    "stock": 20,
-    "description": "Stylish high-waist bikini with retro vibes and excellent UV fabric protection.",
-    "image": "https://i.postimg.cc/example11.png",
-    "category": "Summer Outfits"
-  },
-  {
-    "id": 12,
+    "id": 8,
     "name": "Tie-Dye Co-ord Set",
     "brand": "ColorWave",
     "price": 42,
     "rating": 4.3,
     "stock": 15,
     "description": "Vibrant tie-dye matching top and pants set for a fun summer look.",
-    "image": "https://i.postimg.cc/example12.png",
+    "image": "https://i.ibb.co.com/dsFZ43fX/co-ord.avif",
     "category": "Summer Outfits"
-  },
-
-  {
-    "id": 13,
-    "name": "SPF 50 Sunscreen Lotion",
-    "brand": "DermaSafe",
-    "price": 14,
-    "rating": 4.9,
-    "stock": 50,
-    "description": "Broad-spectrum SPF 50 sunscreen that protects against UVA and UVB rays. Water resistant.",
-    "image": "https://i.postimg.cc/example13.png",
-    "category": "Skincare"
-  },
-  {
-    "id": 14,
-    "name": "Aloe Vera After-Sun Gel",
-    "brand": "CoolLeaf",
-    "price": 10,
-    "rating": 4.8,
-    "stock": 45,
-    "description": "Soothing aloe vera gel that relieves sunburn and keeps skin hydrated after sun exposure.",
-    "image": "https://i.postimg.cc/example14.png",
-    "category": "Skincare"
-  },
-  {
-    "id": 15,
-    "name": "Vitamin C Brightening Serum",
-    "brand": "GlowLab",
-    "price": 28,
-    "rating": 4.7,
-    "stock": 30,
-    "description": "Lightweight vitamin C serum that reduces dark spots and gives a radiant glow in summer.",
-    "image": "https://i.postimg.cc/example15.png",
-    "category": "Skincare"
-  },
-  {
-    "id": 16,
-    "name": "Tinted Moisturizer SPF 30",
-    "brand": "NaturGlow",
-    "price": 22,
-    "rating": 4.5,
-    "stock": 28,
-    "description": "Lightweight tinted moisturizer with SPF 30 for everyday sun protection with a natural finish.",
-    "image": "https://i.postimg.cc/example16.png",
-    "category": "Skincare"
-  },
-  {
-    "id": 17,
-    "name": "Waterproof Sunscreen Spray",
-    "brand": "AquaShield",
-    "price": 16,
-    "rating": 4.6,
-    "stock": 38,
-    "description": "Easy-to-apply waterproof sunscreen spray, perfect for beach and pool days.",
-    "image": "https://i.postimg.cc/example17.png",
-    "category": "Skincare"
-  },
-  {
-    "id": 18,
-    "name": "Hydrating Lip Balm SPF 20",
-    "brand": "LipGuard",
-    "price": 7,
-    "rating": 4.4,
-    "stock": 60,
-    "description": "Moisturizing lip balm with SPF 20 protection, keeps lips soft and protected under the sun.",
-    "image": "https://i.postimg.cc/example18.png",
-    "category": "Skincare"
-  },
-
-  {
-    "id": 19,
-    "name": "Large Beach Tote Bag",
-    "brand": "ShoreStyle",
-    "price": 24,
-    "rating": 4.6,
-    "stock": 20,
-    "description": "Spacious waterproof beach tote bag with multiple pockets. Fits towels, sunscreen and more.",
-    "image": "https://i.postimg.cc/example19.png",
-    "category": "Beach Accessories"
-  },
-  {
-    "id": 20,
-    "name": "Quick-Dry Beach Towel",
-    "brand": "DryFast",
-    "price": 18,
-    "rating": 4.7,
-    "stock": 35,
-    "description": "Extra-large microfiber beach towel that dries in minutes. Sand-resistant and lightweight.",
-    "image": "https://i.postimg.cc/example20.png",
-    "category": "Beach Accessories"
-  },
-  {
-    "id": 21,
-    "name": "Portable Beach Umbrella",
-    "brand": "ShadeMaster",
-    "price": 40,
-    "rating": 4.8,
-    "stock": 12,
-    "description": "UV-blocking portable beach umbrella with sand anchor for easy setup on any beach.",
-    "image": "https://i.postimg.cc/example21.png",
-    "category": "Beach Accessories"
-  },
-  {
-    "id": 22,
-    "name": "Inflatable Pool Float",
-    "brand": "FloatFun",
-    "price": 22,
-    "rating": 4.5,
-    "stock": 18,
-    "description": "Giant inflatable flamingo pool float, perfect for relaxing in the pool or ocean.",
-    "image": "https://i.postimg.cc/example22.png",
-    "category": "Beach Accessories"
-  },
-  {
-    "id": 23,
-    "name": "Waterproof Phone Pouch",
-    "brand": "AquaCase",
-    "price": 9,
-    "rating": 4.4,
-    "stock": 55,
-    "description": "Universal waterproof phone pouch that keeps your phone dry at the beach, pool or water parks.",
-    "image": "https://i.postimg.cc/example23.png",
-    "category": "Beach Accessories"
-  },
-  {
-    "id": 24,
-    "name": "Flip Flops",
-    "brand": "SandWalk",
-    "price": 12,
-    "rating": 4.3,
-    "stock": 50,
-    "description": "Comfortable anti-slip flip flops with soft cushioned soles for all-day beach wear.",
-    "image": "https://i.postimg.cc/example24.png",
-    "category": "Beach Accessories"
   }
 ]
