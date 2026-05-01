@@ -1,6 +1,9 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "@/assets/logo.svg";
+import NavLink from "./NavLink";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,31 +40,50 @@ const Navbar = () => {
               )}
             </svg>
           </button>
-          <div className="font-bold text-3xl">
-            <span className="text-orange-500">Sun</span>Cart
+          <div className="flex items-center">
+            <Link href="/" className="hidden md:block">
+              <Image src={logo} alt="logo" width={150} height={120} />
+            </Link>
+            <div className="font-bold text-3xl">
+              <span className="text-orange-500">Sun</span>Cart
+            </div>
           </div>
         </div>
-        <ul className="hidden items-center gap-4 md:flex">
+        <ul className="hidden items-center gap-4 md:flex font-semibold text-slate-700 ">
           <li>
-            <Link href="/">Home</Link>
+            <NavLink href="/" className={"text-slate-700"}>
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link href="/products">Products</Link>
+            <NavLink href="/products" className={"text-slate-700"}>
+              Products
+            </NavLink>
+          </li>
+          <li>
+            <NavLink href="/profile" className={"text-slate-700"}>
+              My Profile
+            </NavLink>
           </li>
         </ul>
       </header>
       {isMenuOpen && (
         <div className="border-t border-separator md:hidden">
-          <ul className="flex flex-col gap-2 p-4">
+          <ul className="flex flex-col gap-2 p-4 font-semibold">
             <li>
-              <Link href="#" className="block py-2">
+              <NavLink href="/" className={"block py-2 border-none "}>
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link href="#" className="block py-2">
+              <NavLink href="/products" className={"block py-2 border-none "}>
                 Products
-              </Link>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink href="/profile" className={"block py-2 border-none "}>
+                My Profile
+              </NavLink>
             </li>
           </ul>
         </div>
