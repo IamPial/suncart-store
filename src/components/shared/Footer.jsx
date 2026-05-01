@@ -1,5 +1,7 @@
-import Link from "next/link";
-import Image from "next/image";
+import { FaFacebookF } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io";
+import { FaXTwitter } from "react-icons/fa6";
+import { TiSocialLinkedin } from "react-icons/ti";
 
 const Footer = () => {
   return (
@@ -17,108 +19,67 @@ const Footer = () => {
       />
 
       {/* Content */}
-      <div className="max-w-7xl mx-auto px-6 py-16">
+      <div className="max-w-7xl mx-auto px-6 py-16 ">
         {/* Top Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="flex justify-between">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <h2 className="text-xl font-semibold tracking-tight text-black dark:text-white">
-                pixgen
+              <h2 className="text-2xl tracking-tight text-black dark:text-white font-bold">
+                Sun<span className="text-orange-400">Cart</span>
               </h2>
             </div>
 
             <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-400 max-w-xs">
-              Create production-ready AI visuals in seconds. Built for speed,
-              scale, and creativity.
+              <p className="font-semibold text-gray-500">
+                20619 Torrence Chapel Rd
+              </p>
+              <p className="font-semibold text-gray-500">Suite 116 #1040</p>
+              <p className="font-semibold text-gray-500">Cornelius, NC 28031</p>
+              <p className="font-semibold text-gray-500">United States</p>
             </p>
-          </div>
-
-          {/* Product */}
-          <div>
-            <h3 className="text-sm font-semibold text-black dark:text-white mb-4">
-              Product
-            </h3>
-            <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
-              <li>
-                <Link
-                  href="/generate"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Generate
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/all-photos"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Gallery
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/pricing"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Pricing
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Company */}
-          <div>
-            <h3 className="text-sm font-semibold text-black dark:text-white mb-4">
-              Company
-            </h3>
-            <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
-              <li>
-                <Link
-                  href="/about"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/terms"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Terms
-                </Link>
-              </li>
-            </ul>
+            <div className="flex gap-5">
+              <div>
+                <p className="font-semibold text-gray-500">Phone Number</p>
+                <p className="font-semibold text-gray-800">1-800-201-1019</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-500">Email</p>
+                <p className="font-semibold text-gray-800">
+                  support@suncart.com
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* CTA Block */}
           <div className="space-y-4">
-            <h3 className="text-sm font-semibold text-black dark:text-white">
-              Start creating
+            <h3 className="text-2xl font-semibold text-black dark:text-white">
+              Social Links
             </h3>
 
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              Generate your first AI image today.
-            </p>
-
-            <Link
-              href="/signup"
-              className="inline-flex items-center justify-center px-5 py-2.5 rounded-full 
-              bg-black text-white dark:bg-white dark:text-black 
-              text-sm font-medium transition-all duration-200 
-              hover:scale-[1.02] hover:shadow-lg hover:shadow-black/10 dark:hover:shadow-white/10"
-            >
-              Get Started
-            </Link>
+            <ul className="flex  gap-2">
+              <li>
+                <span className="flex items-center justify-center border rounded-full w-10 h-10 bg-neutral-900">
+                  <FaFacebookF className="text-white" />
+                </span>
+              </li>
+              <li>
+                <span className="flex items-center justify-center border rounded-full w-10 h-10 bg-neutral-900">
+                  <IoLogoInstagram className="text-white" />
+                </span>
+              </li>
+              <li>
+                <span className="flex items-center justify-center border rounded-full w-10 h-10 bg-neutral-900">
+                  <FaXTwitter className="text-white" />
+                </span>
+              </li>
+              <li>
+                <span className="flex items-center justify-center border rounded-full w-10 h-10 bg-neutral-900">
+                  <TiSocialLinkedin className="text-white  " />
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -127,22 +88,16 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 dark:text-gray-400">
-          <p>© {new Date().getFullYear()} pixgen. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} SunCart. All rights reserved.</p>
 
-          <div className="flex items-center gap-6">
-            <Link
-              href="/privacy"
-              className="hover:text-black dark:hover:text-white transition"
-            >
+          <ul className="flex items-center gap-6">
+            <li className="hover:text-black dark:hover:text-white transition">
               Privacy
-            </Link>
-            <Link
-              href="/terms"
-              className="hover:text-black dark:hover:text-white transition"
-            >
+            </li>
+            <li className="hover:text-black dark:hover:text-white transition">
               Terms
-            </Link>
-          </div>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
