@@ -1,6 +1,6 @@
 "use client";
 import sunglassImg from "@/assets/banner-1.jpg";
-import sunglassSellImg from "@/assets/banner-2.jpg";
+import WomenBannerImg from "@/assets/women.webp";
 import sunglassAvatarImg from "@/assets/banner-3.jpg";
 import BannerImg from "@/assets/summer.webp";
 import Image from "next/image";
@@ -31,10 +31,20 @@ const Banner = () => {
             className="w-full h-70 md:h-96 lg:h-112 rounded-lg object-cover"
           />
         </SwiperSlide>
+
         <SwiperSlide>
           <Image
-            src={sunglassAvatarImg}
-            alt={"summer"}
+            src={sunglassImg}
+            alt={"sunglass"}
+            width={1920}
+            height={600}
+            className="w-full h-70 md:h-96 lg:h-112 rounded-lg object-cover"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src={WomenBannerImg}
+            alt={"woman"}
             width={1920}
             height={600}
             className="w-full h-70 md:h-96 lg:h-112 rounded-lg object-cover "
@@ -42,11 +52,11 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={sunglassSellImg}
-            alt={"summer"}
+            src={sunglassAvatarImg}
+            alt={"avatar"}
             width={1920}
             height={600}
-            className="w-full h-70 md:h-96 lg:h-112 rounded-lg object-cover"
+            className="w-full h-70 md:h-96 lg:h-112 rounded-lg object-cover "
           />
         </SwiperSlide>
       </Swiper>
