@@ -19,14 +19,14 @@ const Footer = () => {
                 Sun<span className="text-orange-400">Cart</span>
               </h2>
             </div>
-            <p className="text-sm leading-relaxed text-gray-600  max-w-xs">
+            <div className="text-sm leading-relaxed text-gray-600  max-w-xs">
               <p className="font-semibold text-gray-500">
                 20619 Torrent Chapel Rd
               </p>
               <p className="font-semibold text-gray-500">Suite 116 #1040</p>
               <p className="font-semibold text-gray-500">Cornelius, NC 28031</p>
               <p className="font-semibold text-gray-500">United States</p>
-            </p>
+            </div>
             <div className="flex gap-5">
               <div>
                 <p className="font-semibold text-gray-500">Phone Number</p>
