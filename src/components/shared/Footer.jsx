@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex gap-5 flex-col md:flex-row md:justify-between">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <h2 className="text-2xl tracking-tight text-black dark:text-white font-bold">
+              <h2 className="text-2xl tracking-tight text-black  font-bold">
                 Sun<span className="text-orange-400">Cart</span>
               </h2>
             </div>
@@ -69,7 +69,7 @@ const Footer = () => {
         <div className="mt-12 h-px w-full bg-linear-to-r from-transparent via-gray-300 to-transparent dark:via-white/10" />
 
         {/* Bottom */}
-        <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 dark:text-gray-400">
+        <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 ">
           <p>© {new Date().getFullYear()} SunCart. All rights reserved.</p>
 
           <ul className="flex items-center gap-6">
