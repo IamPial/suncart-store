@@ -61,6 +61,10 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
+        <div className="flex items-center gap-2 font-semibold text-neutral-800">
+          <Link href={"/login"}>Login</Link> |
+          <Link href={"/register"}>Sign Up</Link>
+        </div>
       </header>
       {isMenuOpen && (
         <div className="border-t border-separator md:hidden">
