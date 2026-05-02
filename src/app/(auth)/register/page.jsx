@@ -1,5 +1,5 @@
 "use client";
-
+import { authClient } from "@/lib/auth-client";
 import {
   Button,
   Card,
@@ -14,8 +14,20 @@ import React from "react";
 import { BsGoogle } from "react-icons/bs";
 
 const RegisterPage = () => {
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+    const image = e.target.image.value;
+    console.log(name, email, password, image);
+    const { data, error } = await authClient.signUp.email({
+      email,
+      password,
+      name,
+      image,
+    });
+    console.log(data, error);
   };
   return (
     <div>
