@@ -1,5 +1,5 @@
 "use client";
-import sunglassImg from "@/assets/banner-1.jpg";
+import westernImg from "@/assets/western.webp";
 import WomenBannerImg from "@/assets/women.webp";
 import BannerImg from "@/assets/summer.webp";
 import Image from "next/image";
@@ -43,8 +43,8 @@ const Banner = () => {
 
         <SwiperSlide>
           <Image
-            src={sunglassImg}
-            alt={"sunglass"}
+            src={westernImg}
+            alt={"western"}
             width={1920}
             height={600}
             className="w-full h-70 md:h-96 lg:h-112 rounded-lg object-cover"
