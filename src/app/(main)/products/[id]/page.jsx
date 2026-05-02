@@ -22,17 +22,16 @@ const ProductsDetailsPage = async ({ params }) => {
           <h2 className="text-2xl font-semibold text-slate-800">
             {details.name}
           </h2>
-          <div className="flex items-center gap-5">
-            <span className="my-3 inline-block text-zinc-700 font-medium rounded-full py-2 px-8 bg-purple-200 ">
-              Description
-            </span>
+
+          <p className="  text-zinc-700 font-medium  py-2 ">Description:</p>
+          <p className="text-gray-500 ">{details.description}</p>
+          <div className="flex my-2">
             <span className="text-slate-700 font-bold text-sm rounded-lg bg-green-300 py-2 px-8">
               {details.category}
             </span>
           </div>
-          <p className="text-gray-500 ">{details.description}</p>
           <div className="flex items-center gap-5 mt-5 justify-between">
-            <span className="flex items-center gap-1 text-2xl font-semibold text-slate-700">
+            <span className="flex items-center gap-1 text-xl font-semibold text-slate-700">
               <IoStar className="text-orange-400" />
               {details.rating}
             </span>
