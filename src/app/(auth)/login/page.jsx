@@ -26,7 +26,7 @@ const LoginPage = () => {
   return (
     <div className="container mx-auto flex justify-center items-center h-screen flex-col">
       <Form
-        className="p-4 rounded-lg border flex w-96 flex-col gap-4  "
+        className="p-4 rounded-lg border border-gray-200 flex w-96 flex-col gap-4  "
         onSubmit={onSubmit}
       >
         <h2 className="text-center text-3xl font-bold text-slate-700 mb-5">
@@ -50,7 +50,7 @@ const LoginPage = () => {
         </TextField>
         <div className="flex gap-2">
           <Button type="submit" className="w-full">
-            Submit
+            Login
           </Button>
         </div>
         <div>
