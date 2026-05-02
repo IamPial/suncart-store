@@ -5,7 +5,7 @@ import { FaStar } from "react-icons/fa";
 
 const CardPage = ({ product }) => {
   return (
-    <Card className="w-full border">
+    <Card className="w-full shadow-md">
       <div>
         <Image
           alt={product.name}
