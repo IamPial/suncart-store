@@ -4,7 +4,6 @@ import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 const CardPage = ({ product }) => {
-  console.log(product);
   return (
     <Card className="w-full border">
       <div>
