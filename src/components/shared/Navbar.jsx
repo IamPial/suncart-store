@@ -1,8 +1,6 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import logo from "@/assets/logo.svg";
 import NavLink from "./NavLink";
 
 const Navbar = () => {
