@@ -1,5 +1,5 @@
 import { createAuthClient } from "better-auth/react";
 export const authClient = createAuthClient({
-  baseURL: "https://suncart-store-one.vercel.app",
+  baseURL: process.env.SUNCART_AUTH_URL,
 });
 export const { signIn, signUp, useSession } = createAuthClient();
