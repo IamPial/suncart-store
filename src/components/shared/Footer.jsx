@@ -5,14 +5,9 @@ import { TiSocialLinkedin } from "react-icons/ti";
 
 const Footer = () => {
   return (
-    <footer className=" mt-24">
-      <div className="mt-12 h-px w-full" />
-
-      {/* Content */}
+    <footer className=" mt-24 border-t border-t-gray-200">
       <div className="max-w-7xl mx-auto px-6 py-16 ">
-        {/* Top Grid */}
         <div className="flex gap-5 flex-col md:flex-row md:justify-between">
-          {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <h2 className="text-2xl tracking-tight text-black dark:text-white font-bold">
@@ -40,13 +35,11 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
-          {/* CTA Block */}
+          {/* social */}
           <div className="space-y-4">
             <h3 className="text-2xl font-semibold text-slate-700 ">
               Social Links
             </h3>
-
             <ul className="flex  gap-2">
               <li>
                 <span className="flex items-center justify-center border rounded-full w-10 h-10 bg-neutral-900">
