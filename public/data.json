@@ -7,19 +7,19 @@
     "rating": 4.7,
     "stock": 10,
     "description": "Stylish UV protection sunglasses perfect for summer outings.",
-    "image": "https://i.ibb.co.com/20GJ5B8j/sunglass.jpg",
+    "image": "https://i.ibb.co.com/21LjjChd/sunglass.jpg",
     "category": "Sunglasses"
   },
 
   {
     "id": 2,
-    "name": "Waterproof Phone Pouch",
-    "brand": "AquaCase",
-    "price": 9,
-    "rating": 4.4,
-    "stock": 55,
-    "description": "Universal waterproof phone pouch that keeps your phone dry at the beach, pool or water parks.",
-    "image": "https://i.ibb.co.com/Nh9hHLZ/phone-pouch.webp",
+    "name": "Portable Beach Umbrella",
+    "brand": "ShadeMaster",
+    "price": 40,
+    "rating": 4.8,
+    "stock": 12,
+    "description": "UV-blocking portable beach umbrella with sand anchor for easy setup on any beach.",
+    "image": "https://i.ibb.co.com/FqqN016q/umbrella.webp",
     "category": "Beach Accessories"
   },
   {
