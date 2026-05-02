@@ -41,12 +41,9 @@ const Navbar = () => {
             </svg>
           </button>
           <div className="flex items-center">
-            <Link href="/" className="hidden md:block">
-              <Image src={logo} alt="logo" width={150} height={120} />
-            </Link>
-            <div className="font-bold text-3xl">
+            <Link href="/" className="font-bold text-3xl">
               <span className="text-orange-500">Sun</span>Cart
-            </div>
+            </Link>
           </div>
         </div>
         <ul className="hidden items-center gap-4 md:flex font-semibold text-slate-700 ">
