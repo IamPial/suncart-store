@@ -31,7 +31,7 @@ const CardPage = ({ product }) => {
             </span>
           </div>
         </Card.Footer>
-        <Link href="/">
+        <Link href={`/products/${product.id}`}>
           <Button className="w-full ">View Details</Button>
         </Link>
       </div>
