@@ -6,11 +6,10 @@
     "price": 15,
     "rating": 4.7,
     "stock": 10,
-    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "description": "Stylish UV protection sunglasses perfect for summer outings. Engineered with advanced UV400 lens technology, these sunglasses block 100% of harmful UVA and UVB rays, keeping your eyes safe during long hours under the sun. The lightweight frame ensures a comfortable fit for all face shapes, while the scratch-resistant lenses maintain crystal-clear vision. Whether you're at the beach, hiking a trail, or just running errands on a sunny day, these sunglasses are your ultimate eye protection companion.",
     "image": "https://i.ibb.co.com/21LjjChd/sunglass.jpg",
     "category": "Sunglasses"
   },
-
   {
     "id": 2,
     "name": "Portable Beach Umbrella",
@@ -18,7 +17,7 @@
     "price": 40,
     "rating": 4.8,
     "stock": 12,
-    "description": "UV-blocking portable beach umbrella with sand anchor for easy setup on any beach.",
+    "description": "UV-blocking portable beach umbrella with sand anchor for easy setup on any beach. Constructed with a heavy-duty UPF 50+ canopy that blocks over 98% of harmful UV rays, this umbrella provides a generous shaded area for the whole family. The innovative sand anchor design drills securely into any sandy surface, ensuring it stays firm even in strong coastal winds. Compact and lightweight, it folds down to a carry bag size so you can take it anywhere — from tropical beaches to backyard summer parties.",
     "image": "https://i.ibb.co.com/FqqN016q/umbrella.webp",
     "category": "Beach Accessories"
   },
@@ -29,7 +28,7 @@
     "price": 12,
     "rating": 4.3,
     "stock": 50,
-    "description": "Comfortable anti-slip flip flops with soft cushioned soles for all-day beach wear.",
+    "description": "Comfortable anti-slip flip flops with soft cushioned soles for all-day beach wear. Designed with an ergonomic footbed that contours to the natural shape of your foot, providing superior arch support and reducing fatigue even after hours of walking. The textured anti-slip rubber outsole grips wet surfaces safely, making them ideal for poolside, showers, and rocky shorelines. Available in a wide range of vibrant summer colors, these flip flops are both practical and stylish for any casual occasion.",
     "image": "https://i.ibb.co.com/xS3js3pL/flip-flops.webp",
     "category": "Beach Accessories"
   },
@@ -40,11 +39,10 @@
     "price": 19,
     "rating": 4.4,
     "stock": 15,
-    "description": "Trendy oversized cat-eye frames for a bold summer fashion statement.",
+    "description": "Trendy oversized cat-eye frames for a bold summer fashion statement. These iconic frames draw inspiration from vintage 1960s glamour, updated with a modern twist that flatters a wide variety of face shapes. The extra-wide lenses offer enhanced peripheral UV protection while the lightweight acetate frame sits comfortably on the nose and ears all day long. Perfect for brunches, beach days, rooftop parties, or city strolls — these sunglasses are the ultimate accessory to elevate any summer outfit.",
     "image": "https://i.ibb.co.com/7tJMnbck/oversized-sunglass.jpg",
     "category": "Sunglasses"
   },
-
   {
     "id": 5,
     "name": "Floral Print Maxi Dress",
@@ -52,7 +50,7 @@
     "price": 45,
     "rating": 4.6,
     "stock": 30,
-    "description": "Lightweight floral maxi dress made from breathable cotton, perfect for beach days.",
+    "description": "Lightweight floral maxi dress made from breathable cotton, perfect for beach days. Crafted from 100% organic cotton with a loose, flowy silhouette that allows maximum airflow to keep you cool even in the hottest weather. The vibrant all-over floral print captures the essence of summer, while the adjustable spaghetti straps and elastic waistband ensure a flattering fit for all body types. Whether you're walking along the shoreline at sunset or attending a casual outdoor event, this dress effortlessly blends comfort and elegance.",
     "image": "https://i.ibb.co.com/99wqST5Q/maxi-dress.avif",
     "category": "Summer Outfits"
   },
@@ -63,7 +61,7 @@
     "price": 28,
     "rating": 4.5,
     "stock": 40,
-    "description": "Comfortable linen shorts ideal for hot summer days. Available in multiple colors.",
+    "description": "Comfortable linen shorts ideal for hot summer days. Available in multiple colors. Made from premium breathable linen fabric that naturally wicks away moisture and dries quickly, keeping you cool and fresh throughout the day. The relaxed mid-thigh cut offers freedom of movement whether you're swimming, exploring, or lounging. Features two deep side pockets and an elastic drawstring waistband for a secure, adjustable fit. Available in a curated palette of summer-ready shades including white, navy, olive, and coral.",
     "image": "https://i.ibb.co.com/PGXwy78G/shorts.avif",
     "category": "Summer Outfits"
   },
@@ -74,11 +72,10 @@
     "price": 32,
     "rating": 4.4,
     "stock": 22,
-    "description": "Casual striped shirt with a relaxed fit, great for beach outings and summer parties.",
+    "description": "Casual striped shirt with a relaxed fit, great for beach outings and summer parties. Woven from ultra-soft, moisture-wicking cotton blend fabric that feels gentle against the skin even in humid conditions. The classic horizontal stripe pattern gives off effortless coastal vibes, while the button-down front and chest pocket add a touch of laid-back style. Versatile enough to wear open over a swimsuit at the beach or tucked in with shorts for a casual evening dinner — it's the ultimate summer wardrobe staple.",
     "image": "https://i.ibb.co.com/dwY9xQtm/shirts.avif",
     "category": "Summer Outfits"
   },
-
   {
     "id": 8,
     "name": "Tie-Dye Co-ord Set",
@@ -86,7 +83,7 @@
     "price": 42,
     "rating": 4.3,
     "stock": 15,
-    "description": "Vibrant tie-dye matching top and pants set for a fun summer look.",
+    "description": "Vibrant tie-dye matching top and pants set for a fun summer look. Each piece is individually hand-dyed using eco-friendly pigments, meaning no two sets are exactly alike — making yours truly one of a kind. The cropped top features a comfortable ribbed neckline, while the wide-leg pants come with an elastic waistband for an easy, relaxed fit. Made from soft jersey fabric that stretches and moves with you, this co-ord set is perfect for music festivals, beach hangouts, casual days out, or simply lounging in style.",
     "image": "https://i.ibb.co.com/dsFZ43fX/co-ord.avif",
     "category": "Summer Outfits"
   }
