@@ -23,6 +23,16 @@ const Banner = () => {
       >
         <SwiperSlide>
           <Image
+            src={WomenBannerImg}
+            alt={"woman"}
+            width={1920}
+            height={600}
+            className="w-full h-70 md:h-96 lg:h-112 rounded-lg object-cover "
+          />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Image
             src={BannerImg}
             alt={"summer"}
             width={1920}
@@ -38,15 +48,6 @@ const Banner = () => {
             width={1920}
             height={600}
             className="w-full h-70 md:h-96 lg:h-112 rounded-lg object-cover"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src={WomenBannerImg}
-            alt={"woman"}
-            width={1920}
-            height={600}
-            className="w-full h-70 md:h-96 lg:h-112 rounded-lg object-cover "
           />
         </SwiperSlide>
       </Swiper>
